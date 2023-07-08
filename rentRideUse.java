@@ -15,6 +15,7 @@ public class rentRideUse extends rentRide {
          scan.nextLine();
          System.out.println("Car Requested: ");
          carrequested=scan.nextLine();
+         System.out.println("List of Drivers with Details: ");
          m.getInformation();
          n=m.distance1.length;
          int[] distances=new int[m.distance1.length];
